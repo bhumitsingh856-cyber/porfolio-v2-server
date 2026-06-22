@@ -1,0 +1,58 @@
+name: Orbit,
+year: Jan 2026,
+role: Full-stack social platform,
+tagline: A social platform with realtime chat and AI inside.,
+summary: End-to-end social product: auth, profiles, posts, stories, likes, comments, follows, realtime chat, and AI for text and image generation. Tuned for performance with lazy loading, code splitting, and skeleton loaders.,
+features: [
+  JWT auth with role-protected routes,
+  Posts, stories, likes, comments, follows,
+  Realtime chat via Socket.io,
+  AI text generation (Gemini 2.5 Flash),
+  AI image generation (Stable Diffusion XL),
+  Optimized media via Cloudinary,
+],
+tech: [
+  MongoDB,
+  Express,
+  React,
+  Node.js,
+  Socket.io,
+  Cloudinary,
+  Tailwind,
+  JWT,
+  Framer Motion,
+  Gemini 2.5 Flash,
+  Stable Diffusion XL,
+],
+links: {
+  live: https://orbit-seven-pink.vercel.app,
+  github: https://github.com/bhumitsingh856-cyber/ORBIT,
+},
+post: Orbit – Full Stack Social Media Application
+
+Orbit is a production-style social media platform built using the MERN stack.
+The focus is on scalability, real-world features, and clean UI/UX.
+
+✨ Core Features:
+• 🔐 User authentication & authorization (JWT)
+• 📝 Create posts with images and videos
+• ⏳ Stories feature
+• ➕ Follow / Unfollow system
+• 👤 User profiles with dynamic data
+• 💬 Real-time one-to-one chat (Socket.io)
+• 🤖 AI-powered chat assistant with text and image generation 
+• ⚡ Lazy loading & skeleton loaders
+• 📱 Fully responsive design (mobile & desktop)
+
+🛠 Technical Highlights:
+• REST APIs with Express & MongoDB
+• ☁️ Media handling via Cloudinary
+• 🔄 Real-time communication using Socket.io
+• 🔍 Debounced search
+• 🍪 Secure cookie-based authentication
+• 🧩 Modular & reusable UI components
+
+🧑‍💻 Tech Stack:
+Frontend: React, Tailwind CSS, Framer Motion, Swiper js 
+Backend: Node.js, Express, MongoDB 
+Other Tools: Cloudinary, Socket.io, Gemini API, Stable Diffusion XL 

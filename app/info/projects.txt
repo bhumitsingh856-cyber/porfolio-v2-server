@@ -1,0 +1,26 @@
+[
+  {
+    name: "Agent Atlas",
+    year: "June 2026",
+    role: "Research assistant · multi-agent",
+    tagline: "Multi-agent research with citations, diagrams, and RAG chat.",
+  },
+  {
+    name: "Orion Studio AI",
+    year: "Feb 2026",
+    role: "Multimodal AI chat platform",
+    tagline: "Enterprise-grade multimodal AI workspace.",
+  },
+  {
+    name: "Gen UI",
+    year: "April 2026",
+    role: "AI frontend generator",
+    tagline: "A prompt becomes a complete React application.",
+  },
+  {
+    name: "Orbit",
+    year: "Jan 2026",
+    role: "Full-stack social platform",
+    tagline: "A social platform with realtime chat and AI inside.",
+  },
+];

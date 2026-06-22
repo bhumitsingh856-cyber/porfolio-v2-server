@@ -1,0 +1,7 @@
+Languages:  Python, TypeScript, Java
+Frontend:  React, Next.js,Tailwind CSS
+Backend:  Express, FastAPI, MongoDB, PostgreSQL,SQL
+AI / Agents :  LangChain, LangGraph, RAG,LLMs
+Tools: Clerk,Cloudinary,LangSmith
+
+To learn : System design , Transformers , ML , Docker

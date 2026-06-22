@@ -1,0 +1,107 @@
+name: Agent Atlas,
+year: June 2026,
+role: Research assistant · multi-agent,
+tagline: Multi-agent research with citations, diagrams, and RAG chat.,
+summary:Agent Atlas uses a LangGraph workflow to decompose a topic, run multi-stage research through specialized agents, and generate a structured report with citations, embedded images, and mermaid diagrams. Users can then chat with the report through a streaming RAG pipeline.,
+features: [
+  Multi-agent research workflow,
+  Parallel researcher execution,
+  RAG-powered chat over generated reports,
+  Research memory & persistence,
+  Thread-based conversations,
+  Source citations,
+  Streaming responses,
+  PDF export,
+  Embedded images & diagrams
+],
+tech: [
+  Next.js,
+  LangGraph,
+  FastAPI,
+  Tavily,
+  Pinecone,
+  PostgreSQL,
+  shadcn/ui,
+  Zustand, 
+],
+architecture: [
+  { Frontend : Next.js, shadcn/ui },
+  { Backend : FastAPI, PostgreSQL },
+  { Orchestration : LangChain, LangGraph, Pinecone },
+  {
+     Models : [
+      Llama 3.1 8B — prompt enhancement,
+      Llama 3.3 70B Versatile — planning,
+      Llama 4 Scout 17B — research agents,
+      DeepSeek V4 Flash — workers,
+      GPT-OSS 120B — summarization & reasoning,
+      NVIDIA NV-Embed-v1 — embeddings,
+    ],
+  },
+],
+links: {
+  live: https://agent-atlas-one.vercel.app,
+  github: https://github.com/bhumitsingh856-cyber/Agent-Atlas,
+}
+
+Agent Atlas
+Research Done Right. In Minutes.
+Research shouldn't take forever. Introducing Agent Atlas—an AI research assistant that actually researches, so you don't have to.
+
+Watch as intelligent agents break down your topic, investigate in parallel, synthesize findings, and generate a comprehensive report with citations , embedded images , mermaid diagrams. Then ask follow-up questions using RAG-powered semantic search.
+
+From hours to minutes. From scattered to structured. From guesswork to insight.
+
+🎯 The Problem
+Research today is broken:
+
+❌ Hours spent googling and verifying
+❌ ChatGPT hallucinations you can't trust
+❌ Copy-pasting from 20 different sources
+❌ No way to ask follow-ups
+❌ Information scattered everywhere
+There has to be a better way.
+
+✨ The Solution
+Agent Atlas uses multi-agent AI orchestration to:
+
+Break down your research topic intelligently
+Research in parallel with specialized agents
+Generate structured reports with citations, images, and diagrams
+Chat with your research using advanced RAG
+Get answers instantly with streaming responses
+All in 2-5 minutes. Automated. Reliable. Verifiable.
+
+🚀 What You Get
+📊 Intelligent Reports
+Structured, well-organized findings
+Embedded citations & sources
+Visual diagrams (Mermaid)
+Professional formatting
+
+💬 Chat with Your Research
+Ask follow-up questions naturally
+Get instant answers powered by semantic search
+
+⚡ Real-Time Execution
+Watch agents research in real-time
+Monitor progress live
+Transparent, no black boxes
+
+📈 How It Works
+Your Question
+↓
+Agents Break It Down (Intelligent Planning)
+↓
+Multiple Researchers Investigate in Parallel
+↓
+Multiple Workers Synthesize Findings and write their sections
+↓
+Report Generated with Citations, Images and Diagrams
+↓
+Uploaded to Vector Database
+↓
+Chat with Your Research
+
+Time: ~2-5 minutes
+Tokens Used: ~100k-145k

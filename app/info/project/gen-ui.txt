@@ -1,0 +1,79 @@
+name: Gen UI,
+year: April 2026,
+role: AI frontend generator,
+tagline: A prompt becomes a complete React application.,
+summary:
+  Gen UI generates multi-file frontend projects from a single prompt — with a structured file tree, integrated editor, live preview, AI error correction, and downloadable, shareable output.,
+features: [
+  Full multi-file project generation,
+  Clean component structure,
+  Integrated editor with live preview,
+  AI-based error correction,
+  Downloadable code,
+  Shareable live link,
+],
+tech: [
+  Next.js,
+  LangChain,
+  Fireworks AI · Deepseek-v4-flash,
+  Groq · Kimi 2 Instruct,
+  CodeSandbox,
+  Motion,
+  Zustand,
+],
+links: {
+  live: https://gen-ui-seven-black.vercel.app,
+  github: https://github.com/bhumitsingh856-cyber/GEN-UI,
+},
+post:GEN UI
+Prompt → Full React App in seconds.
+
+AI-powered frontend generator that turns a text description into a complete, production-ready React application — with live preview 
+
+✨ What is GEN UI?
+GEN UI is an open-source AI frontend builder. You describe what you want — a landing page, a dashboard, a portfolio — and GEN UI generates a fully working React application with real components, animations, and styles. No templates. No drag and drop. Just code.
+
+"Create a dark SaaS landing page for an AI startup with pricing and testimonials"
+                                    ↓
+        Full React app — Navbar, Hero, Features, Stats, Testimonials, CTA, Footer
+                                    ↓
+              Live preview in browser + one-click open in CodeSandbox
+🎬 Demo
+Write your prompt → watch code stream file by file → preview renders live → deploy instantly
+
+🚀 Features
+AI Code Generation — Fireworks AI generates complete React apps at 400 tokens/sec upto 32k tokens.
+Instant Preview — Sandpack renders your app in the browser with zero setup
+File Explorer — Full component tree with syntax-highlighted code viewer
+Live link — Opens a live shareable URL in CodeSandbox instantly
+Export as ZIP — Download your generated project and run it locally
+Split View — Side-by-side code editor and live preview
+
+
+💡 Highlights:
+
+• Generates full multi-file frontend projects.
+• Clean project structure with components.
+• Integrated editor with real-time preview.
+• AI-based error correction.
+• Downloadable code 
+• Live shareable link
+⚙️ Tech Stack:
+
+Next.js • Motion • LangChain • Zustand
+Fireworks AI (Kimi K2.5) —UI generation
+Groq (Kimi 2 Instruct) — error fixing
+CodeSandbox — runtime & preview
+
+Ui generation stack : - React , Tailwind CSS, Framer Motion, Lucide React , MaterialUI , Charts , react-hot-toast
+Output FILE STRUCTURE : 
+{
+  "/public/index.html": { "code": "..." },
+  "/index.js": { "code": "..." }, -> inject cdn of tailwind here
+  "/App.js": { "code": "..." },
+  "/styles.css": { "code": "..." },
+  "/src/components/exmaple.jsx": { "code": "..." },
+  "/src/otherfiles/exmaple.jsx": { "code": "..." },
+  "/package.json": { "code": "..." }
+}
+

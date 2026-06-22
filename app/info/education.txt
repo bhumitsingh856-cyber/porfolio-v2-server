@@ -1,0 +1,20 @@
+education: [
+    {
+      title: B.Tech, Computer Science (AI & ML),
+      org: IPS Academy, Indore,
+      period: 2024 — 2028,
+      meta: CGPA 8.8,
+    },
+    {
+      title: 12th Grade — CBSE,
+      org: Kendriya Vidyalaya AFS Amla,
+      period: 2023 — 2024,
+      meta: 82.5%,
+    },
+    {
+      title: 10th Grade — CBSE,
+      org: Kendriya Vidyalaya AFS Amla,
+      period: 2021 — 2022,
+      meta: 75%,
+    },
+  ],

@@ -1,0 +1,8 @@
+name: Bhumit Singh
+location: Indore, India
+dob: March 18, 2007
+about: Full-Stack AI Engineer specializing in building LLM applications and Agentic Systems , I design and develop end-to-end AI products accress the full stack - AI Orchestration , frontend and backend,
+bio: [
+    I build software at the intersection of full-stack engineering and applied AI — multi-agent systems, retrieval pipelines, and the interfaces that make them feel inevitable.,
+    Currently a B.Tech CSE (AI & ML) undergrad at IPS Academy, Indore. I ship projects end-to-end, from data layer to interaction design.,
+  ],

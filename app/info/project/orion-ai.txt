@@ -1,0 +1,80 @@
+name: Orion Studio AI,
+year: Feb 2026,
+role: Multimodal AI chat platform,
+tagline: Enterprise-grade multimodal AI workspace.,
+summary: An intelligent agent system for autonomous decision-making and tool routing, with a production RAG pipeline, multi-modal tools (web search, image generation, vision, code, documents), and a fast, responsive UI.,
+features: [
+  Autonomous agent with tool routing,
+  RAG pipeline over user documents,
+  Web search via Tavily,
+  Image generation & vision analysis,
+  Code generation,
+  PDF / DOCX intelligence,
+],
+tech: [
+  Next.js,
+  LangChain JS,
+  Pinecone,
+  MongoDB,
+  Clerk,
+  Cloudinary,
+  Zustand,
+  Tailwind,
+  Framer Motion,
+  Groq · gpt-oss-120b,
+  FLUX.1-schnell,
+  Qwen2.5-VL-72B,
+],
+links: {
+  live: https://orion-studio-sigma.vercel.app,
+  github: https://github.com/bhumitsingh856-cyber/ORION-AI,
+},
+post:Orion Studio
+Orion Studio is a high-performance, agent-driven AI platform built with Next.js 15 and React 19. It enables users to interact with advanced AI models that can process documents, browse the web, and maintain long-term memory through a specialized RAG (Retrieval-Augmented Generation) architecture.
+
+✨ Core Features
+🤖 Multi-Model Intelligence: Seamless integration with Google Gemini, Groq, and Hugging Face.
+🔍 Web-Enabled Agents: Real-time web searching capabilities powered by Tavily.
+📄 Document Intelligence: PDF and Docx analysis using pdf-parse and mammoth.
+💾 Persistent Memory: Context-aware conversations stored in MongoDB Atlas with optimized serverless connection pooling.
+⚡ Modern UI: A sleek, responsive interface built with Tailwind CSS, Framer Motion, and Lucide React.
+🔐 Secure Authentication: User management and protected routes via Clerk.
+
+🧠 What Orion Studio AI Can Do
+
+🔎 Retrieval-Augmented Generation (RAG)
+🛠 Tool-enabled AI agents
+🌍 Real-time web search integration
+👁 Image Vision understanding
+🎨 AI image generation
+
+
+🛠 Tech Stack
+
+🎨 Frontend
+Next.js (App Router)
+Tailwind CSS (fully responsive for mobiles)
+Motion
+Zustand (state management)
+Clerk (authentication)
+Haptics support or mobiles
+
+🤖 AI & Backend Layer
+
+Next.js Route Handlers
+LangChain JS
+Groq (gpt-oss-120b)
+Models (Hugging Face)
+Flux.1 Schnell (image generation)
+Qwen2.3-VL-72B-Instruct (vision model)
+Gemini (embeddings)
+Tavily (web search integration)
+
+🗄 Infrastructure
+
+MongoDB (database)
+Pinecone (vector database)
+Cloudinary (media storage)
+Zod (schema validation)
+Nodemailer (email workflows)
+Claude (React component acceleration)
