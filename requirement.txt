@@ -3,7 +3,6 @@ uvicorn
 langgraph
 langchain-groq
 langchain
-langchain-pinecone
 dotenv
 langchain_text_splitters
 langchain-nvidia-ai-endpoints
