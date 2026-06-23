@@ -15,6 +15,7 @@ def retrieve_information(file_name: Literal[
     "education",
     "contact",
     "projects",
+    "certificates",
     "project/agent-atlas",
     "project/orion-ai",
     "project/gen-ui",

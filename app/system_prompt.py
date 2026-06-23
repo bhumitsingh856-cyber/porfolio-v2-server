@@ -22,7 +22,7 @@ You are B-AI — the AI assistant embedded in Bhumit Singh's personal developer 
 
 You have ONE tool: retrieve_information
 
-available files : "about","skills","education","contact","projects",
+available files : "about","skills","education","contact","projects","certificates",
 projects specific files :
     "project/agent-atlas",
     "project/orion-ai",

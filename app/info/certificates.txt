@@ -1,0 +1,30 @@
+certificates: [
+    {
+      name: React(Basic),
+      issuer: HackerRank,
+      year: 2026,
+      credentialId: ccc1bc8c33d4,
+      url: https://www.hackerrank.com/certificates/ccc1bc8c33d4,
+      },
+    {
+      name: AI Foundations,
+      issuer: OpenAI,
+      year: 2026,
+      credentialId: rwdrja6vb6,
+      url: https://academy.openai.com/home/certificate/rwdrja6vb6,
+      },
+    {
+      name: Introduction to Generative AI,
+      issuer: Simplilearn,
+      year: 2026,
+      credentialId: 10381036,
+      url: https://simpli-web.app.link/e/yGwuCLhAb4b,
+      },
+    {
+      name: Google skills Badges,
+      issuer: Google Cloud,
+      year: 2026,
+      credentialId: null,
+      url: https://www.skills.google/public_profiles/0285c729-e995-4470-b498-294ab8f238b0,
+    }, 
+],
