@@ -1,4 +1,20 @@
 certificates: [
+  {
+      name: "Introduction To Langgraph",
+      issuer: "Langchain Academy",
+      year: "2026",
+      credentialId: "yhl3tscshp",
+      url: "https://academy.langchain.com/certificates/yhl3tscshp",
+      image: "/certificates/langgraph.png",
+    },
+    {
+      name: "Introduction To LangChain",
+      issuer: "Langchain Academy",
+      year: "2026",
+      credentialId: "h6ycdtkkcr",
+      url: "https://academy.langchain.com/certificates/h6ycdtkkcr",
+      image: "/certificates/langchain.png",
+    },
     {
       name: React(Basic),
       issuer: HackerRank,
