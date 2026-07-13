@@ -25,6 +25,7 @@ You have ONE tool: retrieve_information
 available files : "about","skills","education","contact","projects","certificates",
 projects specific files :
     "project/agent-atlas",
+    "project/campus-assistant",
     "project/orion-ai",
     "project/gen-ui",
     "project/orbit",

@@ -1,0 +1,93 @@
+name: Campus Assistant,
+year: July 2026,
+role: AI Campus Assistant,
+tagline: Multi-channel conversational AI for campus student services with LangGraph orchestration.,
+summary: Campus Assistant is an intelligent conversational AI agent that provides students with instant access to academic information, attendance records, syllabus, placements, and campus resources. Powered by LangGraph for agentic workflow orchestration, the system features tool-calling capabilities, PostgreSQL-backed session persistence, and Pinecone vector-based retrieval. Deployed across Telegram, WhatsApp, and Web, it consolidates campus services into a unified chat interface.,
+features: [
+  Real-time attendance retrieval via portal integration,
+  Syllabus access for engineering branches (CSE, CSE-AIML, CSE-DS, CS-IT),
+  Student profile management (register/unregister),
+  Web search & scraping with Tavily Search and Firecrawl,
+  Vector-based semantic search over institutional documents,
+  Multi-channel deployment (Telegram, WhatsApp, Web),
+  Persistent conversation history with PostgreSQL checkpointing,
+  Agentic AI workflows with tool-calling capabilities,
+  Context-aware conversations with message trimming
+],
+tech: [
+  Next.js,
+  LangGraph,
+  FastAPI,
+  Pinecone,
+  PostgreSQL,
+  Telegram Bot API,
+  Twilio,
+  shadcn/ui
+],
+architecture: [
+  { label: Frontend, items: [Next.js, shadcn/ui, Tailwind CSS] },
+  { label: Backend, items: [FastAPI, PostgreSQL, psycopg async pool] },
+  { label: Orchestration, items: [LangGraph, LangChain, Pinecone Vector Store] },
+  { 
+    label: LLM & Tools, 
+    items: [
+      Cerebras GLM-4.7 — primary LLM,
+      LangChain-Groq — optional provider,
+      TavilySearch — web search,
+      Firecrawl — web scraping & page interaction,
+      Custom tools — attendance & syllabus retrieval
+    ]
+  },
+  { 
+    label: Channels, 
+    items: [
+      Telegram Bot API,
+      Twilio WhatsApp,
+      REST API
+    ]
+  }
+],
+links: {
+  live: https://campus-client-1bmw.vercel.app/,
+  github: https://github.com/bhumitsingh856-cyber/campus-agent
+}
+
+An AI-powered campus companion for IPS Academy IES , Indore that provides instant access to academic information, attendance records, and comprehensive campus support - all through a simple chat interface.
+
+🔑 Key Features:
+📊 Real-time Attendance Retrieval - Instant access to attendance records via institutional portal integration .
+📚 Syllabus Access - Get official schemes and syllabi for engineering branches (CSE, CSE-AIML, CSE-DS, CS-IT)
+👤 Student Profile Management - Register/unregister and retrieve student details primary information seamlessly
+🔍 Web Search & Scraping - Real-time information gathering using Tavily Search and Firecrawl
+🧠 Vector-based Retrieval - Semantic search over institutional documents via Pinecone 
+💬 Persistent Conversation History - PostgreSQL-backed checkpointing for session management and long-term user memory.
+🌐 Multi-Channel Availability:
+Telegram
+WhatsApp
+Web Interface
+
+🛠️ Tech Stack:
+Framework: FastAPI, LangGraph, LangChain
+LLM: Cerebras GLM-4.7 / gpt-oss-120b
+Databases: PostgreSQL, Pinecone
+Integrations: Telegram Bot API, Twilio, TavilySearch, Firecrawl
+
+🛠️Tools - get_attendence , get_syllabus, scrape_url, parse_pdf, examination_schedules, academic_programs, admission_procedure, institute_brochure, code_of_conduct, rules_regulations, get_department_schedules, get_campus_updates, placements, scholarship_notices, campus_facilities, academic_calender,
+
+✨ What Makes It Special:
+Agentic AI workflows with tool-calling capabilities
+Intelligent state management with context windowing
+Semantic search over institutional documents
+Persistent sessions across all platforms
+
+🎯 Commands:
+/start - Welcome message
+/register <computer-code> <password> - Register student account
+/unregister - Unregister student account
+/profile - View registered student details
+/clear - Clear conversation history
+/help - Display all available commands
+
+💡 The Vision:
+Making campus life easier, one conversation at a time. Students can now get instant answers about attendance, exams, placements, admissions, and everything in between - no more waiting, no more hassle.
+

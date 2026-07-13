@@ -20,6 +20,7 @@ def retrieve_information(file_name: Literal[
     "project/orion-ai",
     "project/gen-ui",
     "project/orbit",
+    "project/campus-assistant",
     ]):
     """
     Retrieve information from the specified file.

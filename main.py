@@ -25,6 +25,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/ping")
+def ping():
+    return {"success":True}
+    
 @app.post("/ask")
 async def ask(req: Request):
     data = await req.json()
