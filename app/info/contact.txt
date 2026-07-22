@@ -1,5 +1,6 @@
 email: bhumits893@gmail.com , bhumitsingh856@gmail.com
 phone,whatsapp: +91 9752886328
 github: https://github.com/bhumitsingh856-cyber
+leetcode: https://leetcode.com/u/bhumit19/
 linkedin: https://linkedin.com/in/bhumit-singh-220015327
 instagram: https://www.instagram.com/crazyx148
