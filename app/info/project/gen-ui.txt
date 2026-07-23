@@ -11,12 +11,13 @@ features: [
   AI-based error correction,
   Downloadable code,
   Shareable live link,
+  AI Assistant for file updation after generation
 ],
 tech: [
   Next.js,
   LangChain,
   Fireworks AI · Deepseek-v4-flash,
-  Groq · Kimi 2 Instruct,
+  Groq ,
   CodeSandbox,
   Motion,
   Zustand,
@@ -39,12 +40,14 @@ GEN UI is an open-source AI frontend builder. You describe what you want — a l
                                     ↓
               Live preview in browser + one-click open in CodeSandbox
 🎬 Demo
-Write your prompt → watch code stream file by file → preview renders live → deploy instantly
+Write your prompt → creates the detailed plan → Deepseek-v4-flash generates the code → preview renders live → deploy instantly
 
 🚀 Features
+
 AI Code Generation — Fireworks AI generates complete React apps at 400 tokens/sec upto 32k tokens.
 Instant Preview — Sandpack renders your app in the browser with zero setup
 File Explorer — Full component tree with syntax-highlighted code viewer
+AI Assistant for file updation — chat with ai 
 Live link — Opens a live shareable URL in CodeSandbox instantly
 Export as ZIP — Download your generated project and run it locally
 Split View — Side-by-side code editor and live preview
@@ -58,11 +61,12 @@ Split View — Side-by-side code editor and live preview
 • AI-based error correction.
 • Downloadable code 
 • Live shareable link
+• UI Assistant for file updation
 ⚙️ Tech Stack:
 
 Next.js • Motion • LangChain • Zustand
-Fireworks AI (Kimi K2.5) —UI generation
-Groq (Kimi 2 Instruct) — error fixing
+Fireworks AI (Deepseek-v4-flash) —UI generation
+Groq — error fixing , UI Assistant
 CodeSandbox — runtime & preview
 
 Ui generation stack : - React , Tailwind CSS, Framer Motion, Lucide React , MaterialUI , Charts , react-hot-toast
