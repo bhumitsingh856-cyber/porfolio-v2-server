@@ -2,6 +2,6 @@ Languages: Python, TypeScript,JavaScript Java
 Frontend: React, Next.js,Tailwind CSS, Shadcn UI 
 Backend: Node.js,Express, FastAPI, MongoDB, PostgreSQL,SQL
 AI: LangChain, LangGraph, RAG,LLMs
-ML: Numpy,Pandas,Matplotlib,Seaborn
-Tools: Clerk,Cloudinary,LangSmith
-To learn: System design, Transformers, ML, Docker
+ML: Numpy,Pandas,Matplotlib,Seaborn , Scikit-Learn
+Tools: Clerk,Cloudinary,LangSmith,Git
+To learn: System design, Transformers, Docker

@@ -3,7 +3,7 @@ year: April 2026,
 role: AI frontend generator,
 tagline: A prompt becomes a complete React application.,
 summary:
-  Gen UI generates multi-file frontend projects from a single prompt — with a structured file tree, integrated editor, live preview, AI error correction, and downloadable, shareable output.,
+  Gen UI generates multi-file frontend projects from a single prompt — with a structured file tree, integrated editor, live preview, AI error correction, and downloadable, shareable output.Persist generations in Database and access projects anytime,
 features: [
   Full multi-file project generation,
   Clean component structure,
@@ -11,7 +11,8 @@ features: [
   AI-based error correction,
   Downloadable code,
   Shareable live link,
-  AI Assistant for file updation after generation
+  AI Assistant for file updation after generation, 
+  Clerk Auth(free 3 generation for new users)
 ],
 tech: [
   Next.js,
@@ -20,6 +21,8 @@ tech: [
   Groq ,
   CodeSandbox,
   Motion,
+  Clerk,
+  MongoDB,
   Zustand,
 ],
 links: {
