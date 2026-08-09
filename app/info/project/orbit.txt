@@ -28,7 +28,6 @@ links: {
   live: https://orbit-seven-pink.vercel.app,
   github: https://github.com/bhumitsingh856-cyber/ORBIT,
 },
-post: Orbit – Full Stack Social Media Application
 
 Orbit is a production-style social media platform built using the MERN stack.
 The focus is on scalability, real-world features, and clean UI/UX.
@@ -44,15 +43,4 @@ The focus is on scalability, real-world features, and clean UI/UX.
 • ⚡ Lazy loading & skeleton loaders
 • 📱 Fully responsive design (mobile & desktop)
 
-🛠 Technical Highlights:
-• REST APIs with Express & MongoDB
-• ☁️ Media handling via Cloudinary
-• 🔄 Real-time communication using Socket.io
-• 🔍 Debounced search
-• 🍪 Secure cookie-based authentication
-• 🧩 Modular & reusable UI components
-
-🧑‍💻 Tech Stack:
-Frontend: React, Tailwind CSS, Framer Motion, Swiper js 
-Backend: Node.js, Express, MongoDB 
-Other Tools: Cloudinary, Socket.io, Gemini API, Stable Diffusion XL 
+ 

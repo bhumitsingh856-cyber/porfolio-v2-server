@@ -44,8 +44,6 @@ links: {
   github: https://github.com/bhumitsingh856-cyber/Agent-Atlas,
 }
 
-Agent Atlas
-Research Done Right. In Minutes.
 Research shouldn't take forever. Introducing Agent Atlas—an AI research assistant that actually researches, so you don't have to.
 
 Watch as intelligent agents break down your topic, investigate in parallel, synthesize findings, and generate a comprehensive report with citations , embedded images , mermaid diagrams. Then ask follow-up questions using RAG-powered semantic search.

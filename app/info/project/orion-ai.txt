@@ -29,7 +29,7 @@ links: {
   live: https://orion-studio-sigma.vercel.app,
   github: https://github.com/bhumitsingh856-cyber/ORION-AI,
 },
-post:Orion Studio
+
 Orion Studio is a high-performance, agent-driven AI platform built with Next.js 15 and React 19. It enables users to interact with advanced AI models that can process documents, browse the web, and maintain long-term memory through a specialized RAG (Retrieval-Augmented Generation) architecture.
 
 ✨ Core Features
@@ -46,35 +46,4 @@ Orion Studio is a high-performance, agent-driven AI platform built with Next.js 
 🛠 Tool-enabled AI agents
 🌍 Real-time web search integration
 👁 Image Vision understanding
-🎨 AI image generation
-
-
-🛠 Tech Stack
-
-🎨 Frontend
-Next.js (App Router)
-Tailwind CSS (fully responsive for mobiles)
-Motion
-Zustand (state management)
-Clerk (authentication)
-Haptics support or mobiles
-
-🤖 AI & Backend Layer
-
-Next.js Route Handlers
-LangChain JS
-Groq (gpt-oss-120b)
-Models (Hugging Face)
-Flux.1 Schnell (image generation)
-Qwen2.3-VL-72B-Instruct (vision model)
-Gemini (embeddings)
-Tavily (web search integration)
-
-🗄 Infrastructure
-
-MongoDB (database)
-Pinecone (vector database)
-Cloudinary (media storage)
-Zod (schema validation)
-Nodemailer (email workflows)
-Claude (React component acceleration)
+🎨 AI image generation 

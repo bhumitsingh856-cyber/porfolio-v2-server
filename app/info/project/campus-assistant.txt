@@ -54,24 +54,6 @@ links: {
 
 An AI-powered campus companion for IPS Academy IES , Indore that provides instant access to academic information, attendance records, and comprehensive campus support - all through a simple chat interface.
 
-🔑 Key Features:
-📊 Real-time Attendance Retrieval - Instant access to attendance records via institutional portal integration .
-📚 Syllabus Access - Get official schemes and syllabi for engineering branches (CSE, CSE-AIML, CSE-DS, CS-IT)
-👤 Student Profile Management - Register/unregister and retrieve student details primary information seamlessly
-🔍 Web Search & Scraping - Real-time information gathering using Tavily Search and Firecrawl
-🧠 Vector-based Retrieval - Semantic search over institutional documents via Pinecone 
-💬 Persistent Conversation History - PostgreSQL-backed checkpointing for session management and long-term user memory.
-🌐 Multi-Channel Availability:
-Telegram
-WhatsApp
-Web Interface
-
-🛠️ Tech Stack:
-Framework: FastAPI, LangGraph, LangChain
-LLM: Cerebras GLM-4.7 / gpt-oss-120b
-Databases: PostgreSQL, Pinecone
-Integrations: Telegram Bot API, Twilio, TavilySearch, Firecrawl
-
 🛠️Tools - get_attendence , get_syllabus, scrape_url, parse_pdf, examination_schedules, academic_programs, admission_procedure, institute_brochure, code_of_conduct, rules_regulations, get_department_schedules, get_campus_updates, placements, scholarship_notices, campus_facilities, academic_calender,
 
 ✨ What Makes It Special:
