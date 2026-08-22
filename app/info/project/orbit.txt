@@ -1,8 +1,8 @@
 name: Orbit,
 year: Jan 2026,
-role: Full-stack social platform,
+role: Real-time Social Platform,
 tagline: A social platform with realtime chat and AI inside.,
-summary: End-to-end social product: auth, profiles, posts, stories, likes, comments, follows, realtime chat, and AI for text and image generation. Tuned for performance with lazy loading, code splitting, and skeleton loaders.,
+summary:Real-time social platform with JWT auth, stories, follow system, and AI-powered chat assistant. Built with MERN stack + Socket.io for live messaging. Handles media via Cloudinary with lazy loading and debounced search.,
 features: [
   JWT auth with role-protected routes,
   Posts, stories, likes, comments, follows,

@@ -1,8 +1,8 @@
 name: Orion Studio AI,
 year: Feb 2026,
-role: Multimodal AI chat platform,
-tagline: Enterprise-grade multimodal AI workspace.,
-summary: An intelligent agent system for autonomous decision-making and tool routing, with a production RAG pipeline, multi-modal tools (web search, image generation, vision, code, documents), and a fast, responsive UI.,
+role: Multimodal AI Workspace,
+tagline: Explore, create, and analyze—all in one seamless AI experience.,
+summary: Unified multimodal AI workspace combining RAG, vision understanding, image generation, and web search. Built with Next.js, LangChain JS, Pinecone, and MongoDB. Features persistent chat memory and Clerk authentication.,
 features: [
   Autonomous agent with tool routing,
   RAG pipeline over user documents,

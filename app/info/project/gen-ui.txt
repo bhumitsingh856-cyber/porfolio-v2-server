@@ -1,9 +1,8 @@
 name: Gen UI,
 year: April 2026,
-role: AI frontend generator,
-tagline: A prompt becomes a complete React application.,
-summary:
-  Gen UI generates multi-file frontend projects from a single prompt — with a structured file tree, integrated editor, live preview, AI error correction, and downloadable, shareable output.Persist generations in Database and access projects anytime,
+role: AI Frontend Builder,
+tagline: Convert your idea into a complete React app.,
+summary: AI-powered frontend builder. Converts natural language prompts into multi-file React applications with live preview, built-in editor, AI component updation, and one-click download. Uses Fireworks AI (Deepseek-v4-flash) for generation and Groq for error correction and AI updation.,
 features: [
   Full multi-file project generation,
   Clean component structure,

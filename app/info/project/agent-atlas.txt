@@ -1,8 +1,8 @@
 name: Agent Atlas,
 year: June 2026,
-role: Research assistant · multi-agent,
+role: Deep Research Platform,
 tagline: Multi-agent research with citations, diagrams, and RAG chat.,
-summary:Agent Atlas uses a LangGraph workflow to decompose a topic, run multi-stage research through specialized agents, and generate a structured report with citations, embedded images, and mermaid diagrams. Users can then chat with the report through a streaming RAG pipeline.,
+summary:Deep research platform using LangGraph multi-agent orchestration. Breaks topics into parallel research streams, generates structured reports with citations & Mermaid diagrams, and enables RAG chat. ~100k–145k tokens per research cycle. 6+ specialized model integrations.,
 features: [
   Multi-agent research workflow,
   Parallel researcher execution,

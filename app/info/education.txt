@@ -17,4 +17,4 @@ education: [
       period: 2021 — 2022,
       meta: 75%,
     },
-  ],
+],

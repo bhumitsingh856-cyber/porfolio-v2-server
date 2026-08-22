@@ -41,7 +41,6 @@ def chat(state: MessagesState):
         strategy="last",
         token_counter=count_tokens_approximately,
         max_tokens=6000,
-        start_on=HumanMessage,
     )
     response = llm.bind_tools(tools).invoke([PROMPT, *stm])
     return {"messages": [response]}

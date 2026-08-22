@@ -31,7 +31,7 @@ architecture: [
   { 
     label: LLM & Tools, 
     items: [
-      Cerebras GLM-4.7 — primary LLM,
+      OpenRouter-Nvidia — primary LLM,
       LangChain-Groq — optional provider,
       TavilySearch — web search,
       Firecrawl — web scraping & page interaction,
